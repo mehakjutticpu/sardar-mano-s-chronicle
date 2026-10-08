@@ -82,6 +82,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Sardar & Mano — A Story, Still Being Written" },
       { name: "description", content: "Sardar RDX and Mano's personal love story, told by Shah." },
       { name: "author", content: "Sardar RDX" },
+      { name: "google-site-verification", content: "msIALOVQGwvzCrJGVECAeTgwC8f01LYjLPxPYfrMkQ4" },
       { property: "og:site_name", content: "Sardar & Mano" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
