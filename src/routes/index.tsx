@@ -4,6 +4,7 @@ import { ArrowDown, ArrowUpRight, Heart } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { StoryTimeline, Letter, BotFeature } from '@/components/story-content';
 import { storyHead } from '@/lib/story';
+import { SweetMemories } from '@/components/sweet-memories';
 import roses from '@/assets/roses.jpg';
 
 const Petals = lazy(() => import('@/components/petals'));
@@ -22,6 +23,6 @@ function Index() {
     <section className="opening-section" id="beginning"><div className="section-kicker"><span /> THE BEGINNING OF EVERYTHING <span /></div><h2>Facebook par mile thay.<br /><em>Dil mein reh gaye.</em></h2><p>10 September 2025. Ek chhoti si mulaqat, aur zindagi ki sab se badi mohabbat.<br />Yeh kahani Sardar RDX ki hai — aur uski Mano ki.</p><div className="memory-strip"><div><span>10.09.2025</span><small>THE DAY WE MET</small></div><Heart size={20} strokeWidth={1} /><div><span>Sardar → Shah</span><small>THE NAME YOU GAVE ME</small></div><Heart size={20} strokeWidth={1} /><div><span>Sirf tum.</span><small>THEN. NOW. ALWAYS.</small></div></div></section>
     <section className="story-section"><div className="section-heading"><div><p className="eyebrow">THE CHAPTERS OF US</p><h2>Humari <em>kahani.</em></h2></div><Link to="/our-story" className="text-link">Every chapter <ArrowUpRight size={16} /></Link></div><StoryTimeline /></section>
     <div className="quote-band"><span>“</span><blockquote>Duniya mujhe Sardar kehti thi.<br /><em>Tumne Shah kaha, aur main tumhara ho gaya.</em></blockquote><p>— SARDAR RDX</p></div>
-    <Letter /><BotFeature />
+    <SweetMemories /><Letter /><BotFeature />
   </>;
 }
